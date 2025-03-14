@@ -34,4 +34,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./out/  # Za statički export
         # Ako ne koristite statički export, promijenite u .next/
-        server-dir: public_html/  # Prilagodite prema vašem hostingu
+        server-dir: school-website/  # Prilagodite prema vašem hostingu
