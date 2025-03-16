@@ -1,4 +1,3 @@
-// Ovo će biti zamijenjeno sa stvarnim implementacijama kada dobijemo Figma dizajne
 export interface Template {
   id: string
   name: string
