@@ -3,17 +3,6 @@ import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
 
-export async function generateStaticParams() {
-  // Ovo će generirati stranice za sve template-e
-  const templates = [
-    { templateId: "template1" },
-    { templateId: "template2" },
-    { templateId: "template3" }
-  ];
-  
-  return templates;
-}
-
 export default function TemplatePreviewPage({ params }: { params: { templateId: string } }) {
   const template = getTemplateById(params.templateId)
 

@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin", "latin-ext"] })
 export const metadata: Metadata = {
   title: "Srednja škola",
   description: "Web sajt srednje škole",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -27,3 +28,6 @@ export default function RootLayout({
   )
 }
 
+
+
+import './globals.css'
